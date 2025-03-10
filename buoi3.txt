@@ -1,0 +1,16 @@
+1. Index
+Mục đích: Giúp tìm kiếm dữ liệu nhanh hơn.
+Ưu điểm: Truy vấn nhanh hơn khi tìm kiếm, lọc, sắp xếp dữ liệu.
+Nhược điểm: Tốn dung lượng, làm chậm việc thêm/sửa/xóa dữ liệu vì phải cập nhật chỉ mục.
+2. Transaction 
+Mục đích: Đảm bảo dữ liệu không bị sai hoặc mất khi thực hiện nhiều thao tác liên tiếp.
+Ưu điểm: Giữ dữ liệu an toàn, có thể quay lại nếu gặp lỗi.
+Nhược điểm: Có thể gây chậm hệ thống nếu nhiều giao dịch chạy cùng lúc.
+3. Trigger
+Mục đích: Tự động chạy một hành động khi dữ liệu thay đổi.
+Ưu điểm: Giúp tự động hóa xử lý dữ liệu, tránh sai sót.
+Nhược điểm: Khó sửa lỗi, có thể làm chậm hệ thống nếu chạy quá nhiều.
+4. Procedure 
+Mục đích: Gom nhóm nhiều câu lệnh SQL để dùng lại khi cần.
+Ưu điểm: Giúp code gọn hơn, chạy nhanh hơn.
+Nhược điểm: Khó sửa lỗi nếu quá phức tạp, phụ thuộc vào hệ quản trị CSDL.
